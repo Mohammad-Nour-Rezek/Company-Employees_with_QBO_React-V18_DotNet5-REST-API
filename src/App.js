@@ -1,14 +1,10 @@
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
     <div>
-      <Button
-        variant="contained"
-        onClick={() => console.log("Button Clicked!")}
-      >
-        Strike
-      </Button>
+      <Navbar />
     </div>
   );
 }
